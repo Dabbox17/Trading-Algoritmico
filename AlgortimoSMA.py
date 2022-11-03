@@ -12,8 +12,8 @@ import time
 #Imprecisiones
 
 exchange = ccxt.bitmex({
-    'apiKey': 'upVhyYASwSu7nJTMRayZY7lD',
-    'secret': 'eo8iXfn2Lp17RPKf3MN5WeUB5q9MeAvR3dbxuEVPfdGNL1WH',
+    'apiKey': '',
+    'secret': '',
 })
 if 'test' in exchange.urls:
     exchange.urls['api'] = exchange.urls['test']  # ←----- switch the base URL to testnet
