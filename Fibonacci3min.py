@@ -12,8 +12,8 @@ import mplfinance as mpf
 import datetime
 #0:sell limit 1:buy limit 2:sell profit/loss  3:buy profit/loss
 exchange = ccxt.bitmex({
-    'apiKey': 'upVhyYASwSu7nJTMRayZY7lD',
-    'secret': 'eo8iXfn2Lp17RPKf3MN5WeUB5q9MeAvR3dbxuEVPfdGNL1WH',
+    'apiKey': '',
+    'secret': '',
 })
 
 
